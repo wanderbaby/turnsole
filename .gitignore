@@ -1,9 +1,11 @@
-*.zip
-*.rar
 .DS_Store
+scp-front-demo
 node_modules
 dist
-package-lock.json
+
+# local env files
+.env.local
+.env.*.local
 
 # Log files
 npm-debug.log*
@@ -13,9 +15,11 @@ lerna-debug.log*
 
 # Editor directories and files
 .idea
+.history
 .vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+# *-lock.json
